@@ -1,0 +1,387 @@
+{
+    "_index": ".internal.alerts-security.alerts-default-000001",
+    "_id": "a492a95f2bb58804d014b69522d7e1ee12e07a5f2f89110d20ab3993885610e9",
+    "_score": null,
+    "_source": {
+      "kibana.version": "8.5.2",
+      "kibana.alert.rule.category": "Threshold Rule",
+      "kibana.alert.rule.consumer": "siem",
+      "kibana.alert.rule.execution.uuid": "fec4ea06-fac9-4ed5-a02a-45e0d723ed2a",
+      "kibana.alert.rule.name": "Security Metric Threshold",
+      "kibana.alert.rule.producer": "siem",
+      "kibana.alert.rule.rule_type_id": "siem.thresholdRule",
+      "kibana.alert.rule.uuid": "4f6c73a0-75a3-11ed-8800-c74f8acb6826",
+      "kibana.space_ids": [
+        "default"
+      ],
+      "kibana.alert.rule.tags": [],
+      "@timestamp": "2022-12-06T20:22:53.748Z",
+      "service.name": "apm-server",
+      "event.kind": "signal",
+      "kibana.alert.original_time": "2022-12-06T20:22:47.228Z",
+      "kibana.alert.ancestors": [
+        {
+          "id": "fe2f2802-a791-5f68-ae41-01e1dc6d6021",
+          "type": "event",
+          "index": "elastic-cloud-logs-*",
+          "depth": 0
+        }
+      ],
+      "kibana.alert.status": "active",
+      "kibana.alert.workflow_status": "open",
+      "kibana.alert.depth": 1,
+      "kibana.alert.reason": "event created low alert Security Metric Threshold.",
+      "kibana.alert.severity": "low",
+      "kibana.alert.risk_score": 21,
+      "kibana.alert.rule.parameters": {
+        "description": "Security Metric Threshold",
+        "risk_score": 21,
+        "severity": "low",
+        "license": "",
+        "meta": {
+          "from": "5m",
+          "kibana_siem_app_url": "https://kobelb-dev2.kb.us-central1.gcp.cloud.es.io:9243/app/security"
+        },
+        "author": [],
+        "false_positives": [],
+        "from": "now-360s",
+        "rule_id": "fd0fd688-c903-4a41-b4d8-abbf7985d7fd",
+        "max_signals": 100,
+        "risk_score_mapping": [],
+        "severity_mapping": [],
+        "threat": [],
+        "to": "now",
+        "references": [],
+        "version": 3,
+        "exceptions_list": [],
+        "immutable": false,
+        "related_integrations": [],
+        "required_fields": [],
+        "setup": "",
+        "type": "threshold",
+        "language": "kuery",
+        "index": [
+          "elastic-cloud-logs-*"
+        ],
+        "query": "*",
+        "filters": [],
+        "threshold": {
+          "field": [
+            "service.name"
+          ],
+          "value": 10,
+          "cardinality": []
+        }
+      },
+      "kibana.alert.rule.actions": [],
+      "kibana.alert.rule.author": [],
+      "kibana.alert.rule.created_at": "2022-12-06T20:19:40.086Z",
+      "kibana.alert.rule.created_by": "2023294507",
+      "kibana.alert.rule.description": "Security Metric Threshold",
+      "kibana.alert.rule.enabled": true,
+      "kibana.alert.rule.exceptions_list": [],
+      "kibana.alert.rule.false_positives": [],
+      "kibana.alert.rule.from": "now-360s",
+      "kibana.alert.rule.immutable": false,
+      "kibana.alert.rule.interval": "1m",
+      "kibana.alert.rule.indices": [
+        "elastic-cloud-logs-*"
+      ],
+      "kibana.alert.rule.license": "",
+      "kibana.alert.rule.max_signals": 100,
+      "kibana.alert.rule.references": [],
+      "kibana.alert.rule.risk_score_mapping": [],
+      "kibana.alert.rule.rule_id": "fd0fd688-c903-4a41-b4d8-abbf7985d7fd",
+      "kibana.alert.rule.severity_mapping": [],
+      "kibana.alert.rule.threat": [],
+      "kibana.alert.rule.to": "now",
+      "kibana.alert.rule.type": "threshold",
+      "kibana.alert.rule.updated_at": "2022-12-06T20:22:38.683Z",
+      "kibana.alert.rule.updated_by": "2023294507",
+      "kibana.alert.rule.version": 3,
+      "kibana.alert.rule.meta.from": "5m",
+      "kibana.alert.rule.meta.kibana_siem_app_url": "https://kobelb-dev2.kb.us-central1.gcp.cloud.es.io:9243/app/security",
+      "kibana.alert.rule.risk_score": 21,
+      "kibana.alert.rule.severity": "low",
+      "kibana.alert.threshold_result": {
+        "count": 13,
+        "from": "2022-12-06T20:21:46.988Z",
+        "terms": [
+          {
+            "field": "service.name",
+            "value": "apm-server"
+          }
+        ]
+      },
+      "kibana.alert.uuid": "a492a95f2bb58804d014b69522d7e1ee12e07a5f2f89110d20ab3993885610e9"
+    },
+    "fields": {
+      "kibana.alert.threshold_result.terms.value": [
+        "apm-server"
+      ],
+      "kibana.alert.severity": [
+        "low"
+      ],
+      "signal.rule.type": [
+        "threshold"
+      ],
+      "kibana.alert.rule.updated_by": [
+        "2023294507"
+      ],
+      "signal.threshold_result.terms.value": [
+        "apm-server"
+      ],
+      "signal.ancestors.depth": [
+        0
+      ],
+      "kibana.alert.ancestors.id": [
+        "fe2f2802-a791-5f68-ae41-01e1dc6d6021"
+      ],
+      "kibana.alert.threshold_result.count": [
+        13
+      ],
+      "kibana.alert.rule.description": [
+        "Security Metric Threshold"
+      ],
+      "kibana.alert.rule.producer": [
+        "siem"
+      ],
+      "signal.rule.interval": [
+        "1m"
+      ],
+      "signal.rule.created_by": [
+        "2023294507"
+      ],
+      "kibana.alert.rule.to": [
+        "now"
+      ],
+      "kibana.alert.rule.created_by": [
+        "2023294507"
+      ],
+      "kibana.alert.ancestors.depth": [
+        0
+      ],
+      "signal.rule.enabled": [
+        "true"
+      ],
+      "signal.rule.id": [
+        "4f6c73a0-75a3-11ed-8800-c74f8acb6826"
+      ],
+      "signal.rule.max_signals": [
+        100
+      ],
+      "signal.rule.risk_score": [
+        21
+      ],
+      "signal.reason": [
+        "event created low alert Security Metric Threshold."
+      ],
+      "kibana.alert.risk_score": [
+        21
+      ],
+      "signal.rule.updated_at": [
+        "2022-12-06T20:22:38.683Z"
+      ],
+      "kibana.alert.threshold_result.terms.field": [
+        "service.name"
+      ],
+      "kibana.alert.rule.name": [
+        "Security Metric Threshold"
+      ],
+      "signal.status": [
+        "open"
+      ],
+      "event.kind": [
+        "signal"
+      ],
+      "signal.rule.created_at": [
+        "2022-12-06T20:19:40.086Z"
+      ],
+      "kibana.alert.workflow_status": [
+        "open"
+      ],
+      "kibana.alert.rule.uuid": [
+        "4f6c73a0-75a3-11ed-8800-c74f8acb6826"
+      ],
+      "kibana.alert.rule.interval": [
+        "1m"
+      ],
+      "kibana.alert.threshold_result.from": [
+        "2022-12-06T20:21:46.988Z"
+      ],
+      "kibana.alert.rule.type": [
+        "threshold"
+      ],
+      "kibana.alert.reason": [
+        "event created low alert Security Metric Threshold."
+      ],
+      "signal.threshold_result.terms.field": [
+        "service.name"
+      ],
+      "signal.original_time": [
+        "2022-12-06T20:22:47.228Z"
+      ],
+      "signal.ancestors.id": [
+        "fe2f2802-a791-5f68-ae41-01e1dc6d6021"
+      ],
+      "kibana.alert.rule.immutable": [
+        "false"
+      ],
+      "signal.rule.severity": [
+        "low"
+      ],
+      "kibana.alert.ancestors.index": [
+        "elastic-cloud-logs-*"
+      ],
+      "signal.rule.from": [
+        "now-360s"
+      ],
+      "kibana.alert.depth": [
+        1
+      ],
+      "kibana.alert.rule.enabled": [
+        "true"
+      ],
+      "kibana.alert.rule.version": [
+        "3"
+      ],
+      "kibana.alert.rule.from": [
+        "now-360s"
+      ],
+      "kibana.alert.ancestors.type": [
+        "event"
+      ],
+      "kibana.alert.rule.parameters": [
+        {
+          "severity_mapping": [],
+          "references": [],
+          "description": "Security Metric Threshold",
+          "language": "kuery",
+          "threshold": {
+            "field": [
+              "service.name"
+            ],
+            "value": 10,
+            "cardinality": []
+          },
+          "type": "threshold",
+          "exceptions_list": [],
+          "from": "now-360s",
+          "severity": "low",
+          "max_signals": 100,
+          "risk_score": 21,
+          "risk_score_mapping": [],
+          "author": [],
+          "query": "*",
+          "index": [
+            "elastic-cloud-logs-*"
+          ],
+          "filters": [],
+          "version": 3,
+          "rule_id": "fd0fd688-c903-4a41-b4d8-abbf7985d7fd",
+          "license": "",
+          "required_fields": [],
+          "immutable": false,
+          "related_integrations": [],
+          "meta": {
+            "from": "5m",
+            "kibana_siem_app_url": "https://kobelb-dev2.kb.us-central1.gcp.cloud.es.io:9243/app/security"
+          },
+          "setup": "",
+          "false_positives": [],
+          "threat": [],
+          "to": "now"
+        }
+      ],
+      "signal.rule.version": [
+        "3"
+      ],
+      "signal.threshold_result.from": [
+        "2022-12-06T20:21:46.988Z"
+      ],
+      "kibana.alert.status": [
+        "active"
+      ],
+      "signal.ancestors.index": [
+        "elastic-cloud-logs-*"
+      ],
+      "signal.depth": [
+        1
+      ],
+      "signal.rule.immutable": [
+        "false"
+      ],
+      "kibana.alert.rule.rule_type_id": [
+        "siem.thresholdRule"
+      ],
+      "signal.rule.name": [
+        "Security Metric Threshold"
+      ],
+      "signal.rule.rule_id": [
+        "fd0fd688-c903-4a41-b4d8-abbf7985d7fd"
+      ],
+      "kibana.alert.rule.license": [
+        ""
+      ],
+      "kibana.alert.rule.max_signals": [
+        100
+      ],
+      "service.name": [
+        "apm-server"
+      ],
+      "kibana.alert.rule.updated_at": [
+        "2022-12-06T20:22:38.683Z"
+      ],
+      "signal.rule.description": [
+        "Security Metric Threshold"
+      ],
+      "signal.threshold_result.count": [
+        13
+      ],
+      "kibana.alert.rule.consumer": [
+        "siem"
+      ],
+      "kibana.alert.rule.category": [
+        "Threshold Rule"
+      ],
+      "@timestamp": [
+        "2022-12-06T20:22:53.748Z"
+      ],
+      "signal.rule.to": [
+        "now"
+      ],
+      "kibana.alert.rule.created_at": [
+        "2022-12-06T20:19:40.086Z"
+      ],
+      "signal.rule.updated_by": [
+        "2023294507"
+      ],
+      "kibana.alert.rule.execution.uuid": [
+        "fec4ea06-fac9-4ed5-a02a-45e0d723ed2a"
+      ],
+      "kibana.alert.uuid": [
+        "a492a95f2bb58804d014b69522d7e1ee12e07a5f2f89110d20ab3993885610e9"
+      ],
+      "kibana.space_ids": [
+        "default"
+      ],
+      "kibana.version": [
+        "8.5.2"
+      ],
+      "signal.rule.license": [
+        ""
+      ],
+      "signal.ancestors.type": [
+        "event"
+      ],
+      "kibana.alert.original_time": [
+        "2022-12-06T20:22:47.228Z"
+      ],
+      "kibana.alert.rule.rule_id": [
+        "fd0fd688-c903-4a41-b4d8-abbf7985d7fd"
+      ]
+    },
+    "sort": [
+      1670358173748
+    ]
+  }

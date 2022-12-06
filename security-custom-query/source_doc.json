@@ -1,0 +1,73 @@
+{
+    "_index": ".ds-elastic-cloud-logs-8-2022.12.06-000001",
+    "_id": "YjwT6YQBBe4HO9bzEpiR",
+    "_version": 1,
+    "_seq_no": 2767,
+    "_primary_term": 1,
+    "found": true,
+    "_source": {
+      "process": {
+        "pid": 20
+      },
+      "agent": {
+        "name": "988d80d53d76",
+        "id": "4c612df8-401d-4a32-9bad-1c7d99ac9210",
+        "ephemeral_id": "bd3982dd-12e6-430d-8466-427ad0771de1",
+        "type": "filebeat",
+        "version": "8.5.2"
+      },
+      "log": {
+        "file": {
+          "path": "/app/logs/kibana-json.log"
+        },
+        "offset": 49578,
+        "level": "INFO",
+        "logger": "plugins.securitySolution.telemetry_events"
+      },
+      "message": """Events sent!. Response: 200 {"status":"ok"}""",
+      "fileset": {
+        "name": "log"
+      },
+      "error": {
+        "message": "field [json] doesn't exist"
+      },
+      "cloud": {
+        "availability_zone": "us-central1-a"
+      },
+      "input": {
+        "type": "log"
+      },
+      "trace": {
+        "id": "c644452d7b7eae346a2406fe3819e395"
+      },
+      "@timestamp": "2022-12-06T20:14:11.109Z",
+      "ecs": {
+        "version": "8.4.0"
+      },
+      "service": {
+        "node": {
+          "roles": [
+            "background_tasks",
+            "ui"
+          ],
+          "name": "instance-0000000001"
+        },
+        "name": "kobelb-dev2",
+        "id": "40158af9de1b4c0db8580ffb61bdd282",
+        "type": "kibana",
+        "version": "8.5.2"
+      },
+      "host": {
+        "name": "988d80d53d76"
+      },
+      "event": {
+        "ingested": "2022-12-06T20:14:12.112926783Z",
+        "created": "2022-12-06T20:14:11.109Z",
+        "module": "kibana",
+        "dataset": "kibana.log"
+      },
+      "span": {
+        "id": "4a5a90ce0439ed3b"
+      }
+    }
+  }

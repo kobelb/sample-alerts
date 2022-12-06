@@ -1,0 +1,96 @@
+{
+  "_index": ".internal.alerts-observability.metrics.alerts-default-000003",
+  "_id": "7f789a0b-39c6-4605-b788-250594a72ad3",
+  "_score": null,
+  "_source": {
+    "kibana.alert.rule.category": "Metric threshold",
+    "kibana.alert.rule.consumer": "alerts",
+    "kibana.alert.rule.execution.uuid": "98ee3f8a-8230-43ba-a4c7-efbc688f36c5",
+    "kibana.alert.rule.name": "High CPU",
+    "kibana.alert.rule.producer": "infrastructure",
+    "kibana.alert.rule.rule_type_id": "metrics.alert.threshold",
+    "kibana.alert.rule.uuid": "cc946830-758d-11ed-a281-09a660b845f1",
+    "kibana.space_ids": [
+      "monitoring"
+    ],
+    "kibana.alert.rule.tags": [],
+    "@timestamp": "2022-12-06T17:53:55.770Z",
+    "kibana.alert.reason": "system.cpu.total.pct is 276.3% in the last 1 min for 0DF77CF7-0B36-5F1A-A2D6-C35B908BF6C9. Alert when > 100%.",
+    "kibana.alert.duration.us": 492013000,
+    "kibana.alert.instance.id": "0DF77CF7-0B36-5F1A-A2D6-C35B908BF6C9",
+    "kibana.alert.start": "2022-12-06T17:45:43.757Z",
+    "kibana.alert.uuid": "7f789a0b-39c6-4605-b788-250594a72ad3",
+    "kibana.alert.status": "recovered",
+    "kibana.alert.workflow_status": "open",
+    "event.kind": "signal",
+    "event.action": "close",
+    "kibana.version": "8.5.2",
+    "tags": [],
+    "kibana.alert.end": "2022-12-06T17:53:55.770Z"
+  },
+  "fields": {
+    "kibana.alert.workflow_status": [
+      "open"
+    ],
+    "kibana.alert.rule.uuid": [
+      "cc946830-758d-11ed-a281-09a660b845f1"
+    ],
+    "kibana.alert.status": [
+      "recovered"
+    ],
+    "kibana.alert.reason": [
+      "system.cpu.total.pct is 276.3% in the last 1 min for 0DF77CF7-0B36-5F1A-A2D6-C35B908BF6C9. Alert when > 100%."
+    ],
+    "kibana.alert.rule.consumer": [
+      "alerts"
+    ],
+    "kibana.alert.rule.producer": [
+      "infrastructure"
+    ],
+    "kibana.alert.rule.category": [
+      "Metric threshold"
+    ],
+    "kibana.alert.start": [
+      "2022-12-06T17:45:43.757Z"
+    ],
+    "kibana.alert.rule.rule_type_id": [
+      "metrics.alert.threshold"
+    ],
+    "event.action": [
+      "close"
+    ],
+    "@timestamp": [
+      "2022-12-06T17:53:55.770Z"
+    ],
+    "kibana.alert.duration.us": [
+      492013000
+    ],
+    "kibana.alert.instance.id": [
+      "0DF77CF7-0B36-5F1A-A2D6-C35B908BF6C9"
+    ],
+    "kibana.alert.rule.name": [
+      "High CPU"
+    ],
+    "kibana.space_ids": [
+      "monitoring"
+    ],
+    "kibana.alert.rule.execution.uuid": [
+      "98ee3f8a-8230-43ba-a4c7-efbc688f36c5"
+    ],
+    "kibana.alert.uuid": [
+      "7f789a0b-39c6-4605-b788-250594a72ad3"
+    ],
+    "kibana.version": [
+      "8.5.2"
+    ],
+    "event.kind": [
+      "signal"
+    ],
+    "kibana.alert.end": [
+      "2022-12-06T17:53:55.770Z"
+    ]
+  },
+  "sort": [
+    1670349235770
+  ]
+}

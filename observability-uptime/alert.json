@@ -1,0 +1,116 @@
+{
+    "_index": ".internal.alerts-observability.uptime.alerts-default-000001",
+    "_id": "dca48455-acd7-450f-8830-54e686400cfb",
+    "_score": 1,
+    "_source": {
+      "kibana.alert.rule.category": "Uptime monitor status",
+      "kibana.alert.rule.consumer": "alerts",
+      "kibana.alert.rule.execution.uuid": "f343ee13-d998-4906-886a-d11c2165f521",
+      "kibana.alert.rule.name": "Uptime Monitor Status",
+      "kibana.alert.rule.producer": "uptime",
+      "kibana.alert.rule.rule_type_id": "xpack.uptime.alerts.monitorStatus",
+      "kibana.alert.rule.uuid": "7f0afdb0-759f-11ed-957b-9d0e9cb4dcb6",
+      "kibana.space_ids": [
+        "default"
+      ],
+      "kibana.alert.rule.tags": [],
+      "@timestamp": "2022-12-06T19:58:42.079Z",
+      "monitor.id": "my-kibana",
+      "monitor.type": "http",
+      "monitor.name": "My Kibana",
+      "url.full": "http://localhost:5601",
+      "observer.geo.name": "Unnamed-location",
+      "error.message": "Could not connect to '127.0.0.1:5601' with error: dial tcp 127.0.0.1:5601: connect: connection refused",
+      "agent.name": "kobelb",
+      "kibana.alert.reason": "My Kibana from Unnamed-location failed 73 times in the last 15 mins. Alert when > 5.",
+      "kibana.alert.duration.us": 377978000,
+      "kibana.alert.instance.id": "my_kibana_http_localhost_5601_my-kibana-Unnamed-location",
+      "kibana.alert.start": "2022-12-06T19:52:24.101Z",
+      "kibana.alert.uuid": "dca48455-acd7-450f-8830-54e686400cfb",
+      "kibana.alert.status": "active",
+      "kibana.alert.workflow_status": "open",
+      "event.kind": "signal",
+      "event.action": "active",
+      "kibana.version": "8.5.2",
+      "tags": []
+    },
+    "fields": {
+      "kibana.alert.status": [
+        "active"
+      ],
+      "monitor.id": [
+        "my-kibana"
+      ],
+      "kibana.alert.rule.producer": [
+        "uptime"
+      ],
+      "kibana.alert.rule.rule_type_id": [
+        "xpack.uptime.alerts.monitorStatus"
+      ],
+      "monitor.name": [
+        "My Kibana"
+      ],
+      "kibana.alert.instance.id": [
+        "my_kibana_http_localhost_5601_my-kibana-Unnamed-location"
+      ],
+      "kibana.alert.rule.name": [
+        "Uptime Monitor Status"
+      ],
+      "agent.name": [
+        "kobelb"
+      ],
+      "url.full": [
+        "http://localhost:5601"
+      ],
+      "event.kind": [
+        "signal"
+      ],
+      "monitor.type": [
+        "http"
+      ],
+      "kibana.alert.workflow_status": [
+        "open"
+      ],
+      "kibana.alert.rule.uuid": [
+        "7f0afdb0-759f-11ed-957b-9d0e9cb4dcb6"
+      ],
+      "kibana.alert.reason": [
+        "My Kibana from Unnamed-location failed 73 times in the last 15 mins. Alert when > 5."
+      ],
+      "kibana.alert.rule.consumer": [
+        "alerts"
+      ],
+      "kibana.alert.rule.category": [
+        "Uptime monitor status"
+      ],
+      "kibana.alert.start": [
+        "2022-12-06T19:52:24.101Z"
+      ],
+      "event.action": [
+        "active"
+      ],
+      "@timestamp": [
+        "2022-12-06T19:58:42.079Z"
+      ],
+      "kibana.alert.duration.us": [
+        377978000
+      ],
+      "error.message": [
+        "Could not connect to '127.0.0.1:5601' with error: dial tcp 127.0.0.1:5601: connect: connection refused"
+      ],
+      "observer.geo.name": [
+        "Unnamed-location"
+      ],
+      "kibana.space_ids": [
+        "default"
+      ],
+      "kibana.alert.rule.execution.uuid": [
+        "f343ee13-d998-4906-886a-d11c2165f521"
+      ],
+      "kibana.alert.uuid": [
+        "dca48455-acd7-450f-8830-54e686400cfb"
+      ],
+      "kibana.version": [
+        "8.5.2"
+      ]
+    }
